@@ -8,9 +8,9 @@ for(i=0;i<=1;i++)
   {
 for(j=1;j<=5;j++)
 {
-printf("%c",ch) 
+printf("%c",ch); 
   }
-printf("\n") 
+printf("\n");
   }
 return 0;
 
