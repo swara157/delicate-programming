@@ -1,5 +1,5 @@
-#includestdio.h
-#includeconio.h
+#include<stdio.h>
+#include<conio.h>
   int main() 
 {
 char ch;
