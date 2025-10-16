@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    float millimeter;
+    float cm;
     float convert;
-    printf("Enter number to convert millimeter into cm ");
-    scanf("%f",&millimeter);
-    convert=millimeter/10;
-    printf("cm = %.2f",convert);
+    printf("Enter number to convert centimetre into millimeter  ");
+    scanf("%f",&cm);
+    convert=cm*10;
+    printf("millimetre = %.2f",convert);
     return 0;
+
 }
