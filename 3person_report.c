@@ -10,7 +10,7 @@ int main()
 {
     struct human_temp h[3];
     int i;
-    for(i=0;i<1;i++)
+    for(i=0;i<3;i++)
     {
         printf("Enter Details of person\n");
         printf("Enter Temperature \n");
@@ -22,7 +22,7 @@ int main()
         printf("Enter Mobile \n");
         scanf("%s",&h[i].mobile);
     }
-    for(i=0;i<1;i++)
+    for(i=0;i<3;i++)
     {
         printf("\nDetails of person  :  %d\n\n",i+1);
         printf("Temperature : %.2f\n",h[i].temperature);
@@ -32,3 +32,4 @@ int main()
     }
 
 }
+
